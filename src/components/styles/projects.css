@@ -1,0 +1,11 @@
+.projects {
+  text-align: center;
+  color: var(--black);
+  font: 400 20px/1.5 Trebuchet MS;
+}
+
+.col-4 {
+  text-align: center;
+  color: var(--black);
+  font: 400 20px/1.5 Trebuchet MS;
+}

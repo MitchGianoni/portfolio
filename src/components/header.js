@@ -6,7 +6,7 @@ export default class Header extends React.Component {
     // Only render the log out button if we are logged in!
     return (
       <div className="header-bar">
-        <h1>MITCH GIANONI</h1>
+        <h1>Mitch Gianoni</h1>
         <p>Full Stack Web Developer</p>
       </div>
     );

@@ -6,7 +6,7 @@ export default class Bio extends React.Component {
     // Only render the log out button if we are logged in!
     return (
       <div className="bio">
-        <h1>HI MY NAME IS</h1>
+        <p>HI MY NAME IS</p>
       </div>
     );
   }

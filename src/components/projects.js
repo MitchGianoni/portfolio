@@ -8,6 +8,15 @@ export default class Projects extends React.Component {
     return (
       <div className="projects">
         <h1>PROJECTS GO HERE</h1>
+        <div className="col-4">
+          <h6>One</h6>
+        </div>
+        <div className="col-4">
+          <h6>Two</h6>
+        </div>
+        <div className="col-4">
+          <h6>Three</h6>
+        </div>
       </div>
     );
   }
