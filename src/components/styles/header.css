@@ -1,0 +1,6 @@
+.header-bar {
+  text-align: center;
+  color: var(--drkvanil);
+  background-color: var(--smokblck);
+  font: 400 40px/1.5 Trebuchet MS;
+}
