@@ -6,12 +6,16 @@
   background-color: var(--four);
 }
 
+.main {
+  background-color: var(--two);
+}
+
 .footer {
   background-color: var(--four);
 }
 
 a {
-  color: var(--one);
+  color: var(--two);
   text-decoration: none;
 }
 

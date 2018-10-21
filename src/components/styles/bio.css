@@ -1,7 +1,7 @@
 .bio {
   background-color: var(--four);
   font: 400 20px/1.5 Trebuchet MS;
-  color: var(--three);
+  color: var(--two);
 }
 
 .name, .blurb {
@@ -13,10 +13,11 @@
 }
 
 code {
-  color: var(--one);
+  color: var(--four);
   background-color: var(--two);
 }
 
 code:hover{
   background-color: var(--five);
+  color: var(--one);
 }

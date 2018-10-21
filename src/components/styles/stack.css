@@ -1,12 +1,19 @@
 #stack .col-6.logos {
   padding-top: 10px;
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
+  background-color: var(--two);
 }
 
 #stack img {
   object-fit: cover;
-  width: 70px;
+  width: 50px;
   margin-bottom: 30px;
+}
+
+.label {
+  text-align: center;
+  color: var(--four);
+  font: 400 20px/1.5 Trebuchet MS;
 }

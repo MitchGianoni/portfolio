@@ -1,0 +1,10 @@
+.portfolio {
+  text-align: center;
+  color: var(--four);
+  font: 400 20px/1.5 Trebuchet MS;
+}
+
+.label {
+  margin-top: 10px;
+  text-align: center;
+}
