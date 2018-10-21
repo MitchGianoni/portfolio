@@ -1,20 +1,11 @@
 .footer {
   text-align: center;
-  color: var(--drkvanil);
-  background-color: var(--smokblck);
+  color: var(--one);
+  background-color: var(--four);
   font: 400 40px/1.5 Trebuchet MS;
 }
 
 .col-3 {
   text-align: center;
-  background-color: var(--smokblck);
-}
-
-a {
-  color: var(--drkvanil);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--fuzzwuzz);
+  background-color: var(--four);
 }

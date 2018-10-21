@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles/header.css';
+import './styles/float-grid.css'
+import Bio from './bio';
 
 export default class Header extends React.Component {
   render() {
-    // Only render the log out button if we are logged in!
     return (
-      <div className="header-bar">
-        <h1>Mitch Gianoni</h1>
-        <p>Full Stack Web Developer</p>
+      <div className="header-bar row">
+        <Bio className=""/>
       </div>
     );
   }

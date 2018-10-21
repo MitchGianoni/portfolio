@@ -8,4 +8,11 @@
   text-align: center;
   color: var(--black);
   font: 400 20px/1.5 Trebuchet MS;
+  background-color: var(--one);
+  border-radius: 25px;
+}
+
+.label {
+  margin-top: 10px;
+  text-align: center;
 }

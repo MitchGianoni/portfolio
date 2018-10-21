@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Bio from './components/bio';
 import Footer from './components/footer';
 import Header from './components/header';
 import Projects from './components/projects';
@@ -12,14 +11,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="col-12">
+        <header className="col-12 header">
           <Header />
         </header>
-        <main className="col-12">
-          <Bio />
+        <main className="main">
           <Projects />
         </main>
-        <footer className="col-12">
+        <footer className="col-12 footer">
           <Footer />
         </footer>
       </div>

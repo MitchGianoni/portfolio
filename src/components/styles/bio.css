@@ -1,4 +1,22 @@
 .bio {
-  background-color: var(--cerfrost);
+  background-color: var(--four);
   font: 400 20px/1.5 Trebuchet MS;
+  color: var(--three);
+}
+
+.name, .blurb {
+  text-align: center;
+}
+
+.blurb {
+  margin-bottom: 10px;
+}
+
+code {
+  color: var(--one);
+  background-color: var(--two);
+}
+
+code:hover{
+  background-color: var(--five);
 }

@@ -1,0 +1,12 @@
+#stack .col-6.logos {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+  justify-items: center;
+}
+
+#stack img {
+  object-fit: cover;
+  width: 70px;
+  margin-bottom: 30px;
+}

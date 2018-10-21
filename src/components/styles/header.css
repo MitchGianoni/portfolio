@@ -1,6 +1,15 @@
 .header-bar {
   text-align: center;
-  color: var(--drkvanil);
-  background-color: var(--smokblck);
+  color: var(--four);
+  background-color: var(--four);
   font: 400 40px/1.5 Trebuchet MS;
+}
+
+.avatar {
+  padding-top: 10px;
+  border-radius: 25px;
+}
+
+.name {
+  padding-top: 100px;
 }

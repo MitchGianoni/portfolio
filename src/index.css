@@ -1,10 +1,11 @@
 :root {
-  --wildblue: #9AADBF; /*wild blue yonder*/
-  --cerfrost: #6D98BA; /*cerulean frost*/
-  --drkvanil: #D3B99F; /*dark vanilla*/
-  --fuzzwuzz: #C17767; /*fuzzy wuzzy*/
-  --smokblck: #210203; /*smoky black*/
+  --one: #F5FBEF; /*Honeydew*/
+  --two: #92AD94; /*Dark Sea Green*/
+  --three: #748B75; /*Xanadu*/
+  --four: #503D42; /*Dark Puce*/
+  --five: #84C318; /*Limerick*/
   --black: #272727;
+  --white: #F4FFF8;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--three);
 }
 
 code {
