@@ -26,7 +26,6 @@ export default class Projects extends React.Component {
             <img src='https://s3.us-east-2.amazonaws.com/mg-icons/knex.svg' alt='Knex' />
             <img src='https://s3.us-east-2.amazonaws.com/mg-icons/mocha.svg' alt='Mocha' />
             <img src='https://s3.us-east-2.amazonaws.com/mg-icons/chai.svg' alt='Chai' />
-
           </div>
         </div>
     );

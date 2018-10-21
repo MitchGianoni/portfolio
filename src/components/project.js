@@ -5,8 +5,8 @@ import './styles/project.css';
 export default function Project(props) {
     
   return (
-    <div className="col-6">
-      <h1>{props.text}</h1>
+    <div className="col-12 project">
+      <h1 className="title">{props.text}</h1>
     </div>
   );
 }
