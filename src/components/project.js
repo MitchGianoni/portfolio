@@ -6,7 +6,8 @@ export default function Project(props) {
     
   return (
     <div className="col-12 project">
-      <h1 className="title">{props.text}</h1>
+      <h1 className="title">{props.project.title}</h1>
+      <img src={props.project.screenshot} alt={props.project.alt}></img>
     </div>
   );
 }

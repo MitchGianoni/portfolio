@@ -1,8 +1,12 @@
 .col-12.project {
-  border: solid 1px;
-  margin-bottom: 1px;
+
 }
 
 .title {
   text-align: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }

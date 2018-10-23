@@ -1,14 +1,13 @@
 #stack .col-6.logos {
   padding-top: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   background-color: var(--two);
 }
 
 #stack img {
-  object-fit: cover;
-  width: 50px;
+  width: 70px;
   margin-bottom: 30px;
 }
 
