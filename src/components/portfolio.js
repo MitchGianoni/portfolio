@@ -41,15 +41,15 @@ export default class Portfolio extends React.Component {
         description: '',
         techStack: 'React, Rails, PostgreSQL',
         repo: 'https://github.com/fantasy-draft-assist/back-end',
-        liveLink: ''
+        liveLink: 'tbd'
       }
     }
   }
   render() {
     return (
-      <div className="portfolio">
-          <h1 className="label col-12 row">Portfolio Projects</h1>
-        <div className="row">
+      <div className="portfolio row">
+          <h1 className="label">Portfolio Projects</h1>
+        <div className="project-list">
           <Project project={this.state.project1} />
           <Project project={this.state.project2} />
           <Project project={this.state.project3} />

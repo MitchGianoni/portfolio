@@ -8,3 +8,11 @@
   margin-top: 10px;
   text-align: center;
 }
+
+#pj a {
+  color: var(--four);
+}
+
+#pj a:hover {
+  color: var(--five);
+}
