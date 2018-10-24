@@ -15,6 +15,6 @@ img {
   font-weight: 
 }
 
-#info a {
-  color: var(--four);
+.link {
+  text-decoration: underline;
 }
