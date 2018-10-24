@@ -4,6 +4,7 @@
 
 .title {
   text-align: center;
+  font-size: 30px;
 }
 
 img {
@@ -17,4 +18,8 @@ img {
 
 .link {
   text-decoration: underline;
+}
+
+.tech {
+  font-size: 12px;
 }

@@ -15,6 +15,7 @@ export default function Project(props) {
         <p className="link">
           <a href={props.project.liveLink} target="_blank" rel="noopener noreferrer">Live App</a>
         </p>
+        <p className="tech">Tech Stack: {props.project.techStack}</p>
       </div>
       <p className="col-6 desc">{props.project.description}</p>
     </div>

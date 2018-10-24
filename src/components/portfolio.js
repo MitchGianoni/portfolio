@@ -38,8 +38,8 @@ export default class Portfolio extends React.Component {
         title: 'Hockey Doctor',
         alt: 'Hockey Doctor - Compare fantasy hockey players',
         screenshot: 'https://s3.us-east-2.amazonaws.com/mg-icons/hockeydoctor.png',
-        description: 'This app exists so you can beat your friends in fantasy hockey. It is not inended to be used as a betting or gambling website. We do not endorse betting or gambling on fantasy hockey or any other fantasy sporting league. Instead, we seek to provide specified hockey statistics based on a proprietary algorithm. We hope that you will use the info on this website as intended to beat your friends in fantasy hockey and earn the kind of victory that no dollar amount can match: bragging rights.',
-        techStack: 'React, Rails, PostgreSQL',
+        description: 'This app exists so you can beat your friends in fantasy hockey. It is not intended to be used as a betting or gambling website. We do not endorse betting or gambling on fantasy hockey or any other fantasy sporting league. Instead, we seek to provide specified hockey statistics based on a proprietary algorithm. We hope that you will use the info on this website as intended to beat your friends in fantasy hockey and earn the kind of victory that no dollar amount can match: bragging rights.',
+        techStack: 'React, Rails, PostgreSQL. (I built the backend Rails server on this project)',
         repo: 'https://github.com/fantasy-draft-assist/back-end',
         liveLink: 'https://hockeydoctor.surge.sh/'
       }
