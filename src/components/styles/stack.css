@@ -30,7 +30,6 @@
 }
 
 .label {
-  margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
   font-size: 40px;
@@ -45,5 +44,9 @@
     display: grid;
     grid-template-columns: repeat(8, minmax(10px, 1fr));
     justify-items: center;
+  }
+
+  .label {
+    margin-top: 20px;
   }
 }
