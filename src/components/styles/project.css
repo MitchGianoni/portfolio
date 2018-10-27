@@ -1,24 +1,30 @@
 .row.project {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .title {
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
-  font-size: 30px;
-}
-
-img {
-  width: 70px;
-}
-
-.desc {
-  font-weight: 
+  font-size: 40px;
 }
 
 .link {
   text-decoration: underline;
+  text-align: center;
 }
 
-.tech {
-  font-size: 12px;
+.project {
+  background-color: var(--one);
+  border-radius: 10px;
+  box-shadow: 0vw 1vh 5vh 1px rgba(0, 0, 0, 0.5);
+}
+
+.desc, .info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#pj img {
+  padding-top: 10px;
 }

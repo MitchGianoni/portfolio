@@ -1,17 +1,6 @@
 .App {
   text-align: center;
-}
-
-.header {
-  background-color: var(--four);
-}
-
-.main {
-  background-color: var(--two);
-}
-
-.footer {
-  background-color: var(--four);
+  overflow-x: hidden;
 }
 
 a {

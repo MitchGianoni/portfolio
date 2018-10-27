@@ -7,29 +7,29 @@ export default class Footer extends React.Component {
   render() {
     // Only render the log out button if we are logged in!
     return (
-      <div id="footer" className="row">
-        <h5 className="col-12">Contact Info</h5>
-        <div className="social col-3">
-          <h5><a href="mailto:mitchgianoni@gmail.com">
+      <section id="footer" className="row">
+        <h1 className="col-12">Contact Info</h1>
+        <section className="social col-3">
+          <p><a href="mailto:mitchgianoni@gmail.com">
           Email
-          </a></h5>
-        </div>
-        <div className="social col-3">
-          <h5><a href="https://github.com/MitchGianoni" target="_blank" rel="noopener noreferrer">
+          </a></p>
+        </section>
+        <section className="social col-3">
+          <p><a href="https://github.com/MitchGianoni" target="_blank" rel="noopener noreferrer">
           GitHub
-          </a></h5>
-        </div>
-        <div className="social col-3">
-          <h5><a href="https://www.linkedin.com/in/mitch-gianoni/" target="_blank" rel="noopener noreferrer">
+          </a></p>
+        </section>
+        <section className="social col-3">
+          <p><a href="https://www.linkedin.com/in/mitch-gianoni/" target="_blank" rel="noopener noreferrer">
           LinkedIn
-          </a></h5>
-        </div>
-        <div className="social col-3">
-          <h5><a href={Resume} target="_blank" rel="noopener noreferrer">
+          </a></p>
+        </section>
+        <section className="social col-3">
+          <p><a href={Resume} target="_blank" rel="noopener noreferrer">
           Resume
-          </a></h5>
-        </div>
-      </div>
+          </a></p>
+        </section>
+      </section>
     );
   }
 

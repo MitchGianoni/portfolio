@@ -1,12 +1,16 @@
-#stack {
+#stack.row {
   text-align: center;
+  background-color: var(--one);
+  border-radius: 10px;
+  box-shadow: 0vw 1vh 5vh 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
 
 #stack .col-12.logos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(10px, 1fr));
   justify-items: center;
-  background-color: var(--two);
+  padding: 0px;
 }
 
 #stack img {
@@ -21,4 +25,12 @@
   text-align: center;
   color: var(--four);
   font: 400 40px/1.5 Trebuchet MS;
+}
+
+@media only screen and (min-width: 640px) {
+  #stack .col-12.logos {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(10px, 1fr));
+    justify-items: center;
+  }
 }

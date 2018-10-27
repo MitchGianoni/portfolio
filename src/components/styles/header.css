@@ -3,4 +3,6 @@
   color: var(--four);
   background-color: var(--four);
   font: 400 40px/1.5 Trebuchet MS;
+  box-shadow: 0vw 1vh 5vh 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }

@@ -6,6 +6,7 @@
   --five: #84C318; /*Limerick*/
   --black: #272727;
   --white: #F4FFF8;
+  background-color: var(--two);
 }
 
 body {
