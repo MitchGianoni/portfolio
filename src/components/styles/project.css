@@ -3,16 +3,19 @@
   margin-top: 20px;
 }
 
+.invis {
+  color: var(--one);
+}
+
 .title {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px;
-}
-
-.link {
-  text-decoration: underline;
-  text-align: center;
+  background-color: var(--four);
+  color: var(--one);
+  border-radius: 10px;
+  box-shadow: 0vw 1vh 5vh 1px rgba(0, 0, 0, 0.5);
 }
 
 .project {
@@ -24,4 +27,20 @@
 .desc, .info {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#pj .icon {
+  height: 50px;
+  width: 50px;
+}
+
+#pj .links {
+  text-align: center;
+  padding-top: 20px;
+  margin: 20px;
+}
+
+#pj a {
+  margin-left: 20px;
+  margin-right: 20px;
 }

@@ -6,9 +6,9 @@ import Bio from './bio';
 export default class Header extends React.Component {
   render() {
     return (
-      <div className="header-bar row">
+      <section className="header-bar row">
         <Bio className=""/>
-      </div>
+      </section>
     );
   }
 

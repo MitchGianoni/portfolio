@@ -48,15 +48,15 @@ export default class Portfolio extends React.Component {
   }
   render() {
     return (
-      <div className="portfolio row">
-        <div className="project-list">
+      <section className="portfolio row">
+        <section className="project-list">
           <Project className="project row" project={this.state.project1} />
           <Project className="project row" project={this.state.project2} />
           <Project className="project row" project={this.state.project3} />
           <Project className="project row" project={this.state.project4} />
           <Stack />
-        </div>
-      </div>
+        </section>
+      </section>
     );
   }
 

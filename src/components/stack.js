@@ -6,7 +6,9 @@ export default class Projects extends React.Component {
   render() {
     return (
         <section id="stack" className="row">
-          <h1 className="col-12 label">Tech Skills</h1>
+          <p className="col-4 invis">_</p>
+          <h1 className="col-4 label">Tech Skills</h1>
+          <p className="col-4 invis">_</p>
             <section className="col-12 logos">
               <img src="https://s3.us-east-2.amazonaws.com/mg-icons/html-5.svg" alt="HTML" title="HTML" />
               <img src="https://s3.us-east-2.amazonaws.com/mg-icons/css-3.svg" alt="CSS" title="CSS" />
