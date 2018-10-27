@@ -8,8 +8,12 @@
   text-align: center;
 }
 
+.name {
+  margin-top: 10px;
+}
+
 .blurb {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 code {
