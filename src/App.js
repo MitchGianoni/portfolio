@@ -9,18 +9,18 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <body className="App">
         <header className="header">
           <Header />
         </header>
         <main className="main">
-          <Stack />
           <Portfolio />
+          <Stack />
         </main>
         <footer className="footer">
           <Footer />
         </footer>
-      </div>
+      </body>
     );
   }
 }

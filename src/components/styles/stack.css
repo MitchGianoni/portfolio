@@ -1,16 +1,22 @@
-#stack .col-6.logos {
-  padding-top: 10px;
+#stack {
+  text-align: center;
+}
+
+#stack .col-12.logos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
   background-color: var(--two);
 }
 
 #stack img {
   width: 70px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
+#stack img.too-tall {
+  height: 100px;
+}
 .label {
   text-align: center;
   color: var(--four);

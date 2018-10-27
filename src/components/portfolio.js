@@ -50,10 +50,10 @@ export default class Portfolio extends React.Component {
       <div className="portfolio row">
           <h1 className="label">Portfolio Projects</h1>
         <div className="project-list">
-          <Project project={this.state.project1} />
-          <Project project={this.state.project2} />
-          <Project project={this.state.project3} />
-          <Project project={this.state.project4} />
+          <Project className="row" project={this.state.project1} />
+          <Project className="row" project={this.state.project2} />
+          <Project className="row" project={this.state.project3} />
+          <Project className="row" project={this.state.project4} />
         </div>
       </div>
     );
