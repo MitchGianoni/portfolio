@@ -23,7 +23,7 @@ export default class Portfolio extends React.Component {
         screenshot: 'https://s3.us-east-2.amazonaws.com/mg-icons/datastructures.png',
         description: 'This application helps to solve the problem of learning new terminology by using a spaced-repetition algorithm learning technique that incorporates increasing intervals of time between subsequent review of previously learned material in order to exploit the psychological spacing effect.',
         techStack: 'React, Redux, Node, Express, MongoDB, Passport',
-        repo: 'https://chasen-mitch-spacedrep-client.herokuapp.com/',
+        repo: 'https://github.com/thinkful-ei22/chasen-mitch-spacedRep-client',
         liveLink: 'https://chasen-mitch-spacedrep-client.herokuapp.com/'
       },
       project3: { 

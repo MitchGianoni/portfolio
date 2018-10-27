@@ -4,7 +4,6 @@ import Header from './components/header';
 import Portfolio from './components/portfolio';
 import './App.css';
 
-
 class App extends Component {
   render() {
     return (
