@@ -1,16 +1,19 @@
+#stack {
+  margin-top: 20px;
+}
+
 #stack.row {
   text-align: center;
   background-color: var(--one);
   border-radius: 10px;
   box-shadow: 0vw 1vh 5vh 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
 }
 
 #stack .col-12.logos {
   display: grid;
   grid-template-columns: repeat(2, minmax(10px, 1fr));
   justify-items: center;
-  padding: 0px;
+  margin-bottom: 15px;
 }
 
 #stack img {
@@ -21,6 +24,7 @@
 #stack img.too-tall {
   height: 100px;
 }
+
 .label {
   text-align: center;
   color: var(--four);

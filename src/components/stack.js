@@ -4,7 +4,6 @@ import './styles/stack.css';
 
 export default class Projects extends React.Component {
   render() {
-    // Only render the log out button if we are logged in!
     return (
         <section id="stack" className="row">
           <h1 className="col-12 label">Tech Skills</h1>

@@ -13,7 +13,7 @@ export default class Bio extends React.Component {
         construction and financial institution web technology.
         I'm looking for an opportunity to join a team of great programmers in the Atlanta area. 
         Along with coding, I am an avid dog lover, a part time gamer, and a big hockey fan. 
-        I also play in a local adult amateur ice hockey league.</p>
+        I also play in a local amateur ice hockey league.</p>
       </section>
     );
   }

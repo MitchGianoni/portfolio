@@ -1,13 +1,19 @@
 #footer {
   text-align: center;
-  color: var(--two);
+  color: var(--one);
   background-color: var(--four);
   font: Trebuchet MS;
   box-shadow: 0vw 1vh 5vh 1px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-#footer .social.col-3 {
-  text-align: center;
+#footer a {
+  color: var(--one);
+  margin: 10px;
+}
+
+#footer p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
