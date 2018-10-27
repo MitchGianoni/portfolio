@@ -13,7 +13,23 @@
   margin: 10px;
 }
 
-#footer p {
+#footer a:hover {
+  color: var(--five);
+}
+
+#footer .social {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#footer .icon {
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (min-width: 640px) {
+  #footer a {
+    color: var(--one);
+    margin: 20px;
+  }
 }

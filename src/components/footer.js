@@ -11,20 +11,18 @@ export default class Footer extends React.Component {
     return (
       <section id="footer" className="row">
         <section className="social col-12">
-          <h1>
             <a href="mailto:mitchgianoni@gmail.com">
-              <FontAwesomeIcon icon={solidIcons.faEnvelope} alt="Email" title="Email" />
+              <FontAwesomeIcon icon={solidIcons.faEnvelope} className="icon" alt="Email" title="Email" />
             </a>
             <a href="https://github.com/MitchGianoni" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={brandIcons.faGithub} alt="GitHub" title="GitHub" />
+              <FontAwesomeIcon icon={brandIcons.faGithub} className="icon" alt="GitHub" title="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/mitch-gianoni/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={brandIcons.faLinkedin} alt="LinkedIn" title="LinkedIn" />
+              <FontAwesomeIcon icon={brandIcons.faLinkedin} className="icon" alt="LinkedIn" title="LinkedIn" />
             </a>
             <a href={Resume} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={solidIcons.faFile} alt="Resume" title="Resume" />
+              <FontAwesomeIcon icon={solidIcons.faFile} className="icon" alt="Resume" title="Resume" />
             </a>
-          </h1>
         </section>
       </section>
     );
