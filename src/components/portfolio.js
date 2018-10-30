@@ -24,7 +24,7 @@ export default class Portfolio extends React.Component {
         description: 'This application helps to solve the problem of learning new terminology by using a spaced-repetition algorithm learning technique that incorporates increasing intervals of time between subsequent review of previously learned material in order to exploit the psychological spacing effect.',
         techStack: 'React, Redux, Node, Express, MongoDB, Passport',
         repo: 'https://github.com/thinkful-ei22/chasen-mitch-spacedRep-client',
-        liveLink: 'https://chasen-mitch-spacedrep-client.herokuapp.com/'
+        liveLink: 'https://datastructures.netlify.com/'
       },
       project3: { 
         title: 'GO!',
@@ -33,7 +33,7 @@ export default class Portfolio extends React.Component {
         description: 'GO! is an app made to encourage people to go outside. The app makes it easy to explore your natural surroundings, allowing users to register and comment on locations. With GO!, you can easily find locations near you, or ones that you\'re interested in using our filtration system. You can also help raise community awareness about the beautiful locales right outside their front doors by adding your own locations.',
         techStack: 'React, Redux, React-Notify-Toast, Thunk, Node, Express, MongoDB, Axios',
         repo: 'https://github.com/thinkful-ei22/yelp-for-parks-capstone-frontend',
-        liveLink: 'https://dry-waters-99312.herokuapp.com/'
+        liveLink: 'https://yfp-go.herokuapp.com/'
       },
       project4: { 
         title: 'Hockey Doctor',
