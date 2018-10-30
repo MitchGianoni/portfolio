@@ -10,8 +10,8 @@ export default class Bio extends React.Component {
         <p className="col-12 blurb">A full stack developer with a passion for problem solving. I love
         the unique challenges that come with writing intelligent <code>{'<'}code/></code> and
         building different web apps. I also have prior experience in project management in both commercial
-        construction and financial institution web technology.
-        I'm looking for an opportunity to join a team of great programmers in the Atlanta area. 
+        construction and financial institution web technology.</p>
+        <p className="col-12 blurb">I'm looking for an opportunity to join a team of great programmers in the Atlanta area. 
         Along with coding, I am an avid dog lover, a part time gamer, and a big hockey fan. 
         I also play in a local amateur ice hockey league.</p>
       </section>

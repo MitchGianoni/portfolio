@@ -12,7 +12,9 @@ export default function Project(props) {
       <p className="col-3 invis">_</p>
       <p className="col-6 title">{props.project.title}</p>
       <p className="col-3 invis">_</p>
-      <img className="col-12" src={props.project.screenshot} alt={props.project.alt}></img>
+      <a href={props.project.liveLink} title="Live Site" alt="Live Site">
+        <img className="col-12" src={props.project.screenshot} alt={props.project.alt}></img>
+      </a>
       <p className="col-6 desc">{props.project.description}</p>
       <section className="col-6 info">
         <p className="tech">Tech Stack: {props.project.techStack}</p>
