@@ -13,7 +13,7 @@ export default class Portfolio extends React.Component {
         alt: 'Deckbuilder - Hearthstone deckbuilding app',
         screenshot: 'https://s3.us-east-2.amazonaws.com/mg-icons/deckbuilder1.png',
         description: 'An app created to enable users to save extra Hearthstone decks, as the game itself limits you to 18. This way users can keep their favorite decks as they transition from Standard format to Wild and recall old decks with ease.',
-        techStack: 'React, Redux, Node, Express, PostgreSQL, Passport',
+        techStack: 'React, Redux, Node, Express, PostgreSQL, Knex.js, Passport',
         repo: 'https://github.com/MitchGianoni/hsdeckbuilder-client',
         liveLink: 'https://hsdeckbuilder.netlify.com/'
       },
