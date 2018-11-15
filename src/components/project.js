@@ -13,7 +13,7 @@ export default function Project(props) {
       <p className="col-6 title">{props.project.title}</p>
       <p className="col-3 invis">_</p>
       <a href={props.project.liveLink} title="Live Site" alt="Live Site">
-        <img className="col-12" src={props.project.screenshot} alt={props.project.alt}></img>
+        <img className="col-12" src={props.project.screenshot} alt={props.project.alt} target="_blank" rel="noopener noreferrer"></img>
       </a>
       <p className="col-6 desc">{props.project.description}</p>
       <section className="col-6 info">
